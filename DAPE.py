@@ -93,7 +93,7 @@ class AliBi(torch.nn.Module):
         return x + a
 
 
-class AliBi_CAPE(torch.nn.Module):
+class AliBi_DAPE(torch.nn.Module):
     def __init__(self, num_heads, mp_size=1, mp_rank=1,mlp_width=32):
         super().__init__()
         # megatron splits across heads, so we need to make sure each
@@ -292,7 +292,7 @@ class ParallelKerpleLog(torch.nn.Module):
 
 
 
-class ParallelKerpleLog_CAPE(torch.nn.Module):
+class ParallelKerpleLog_DAPE(torch.nn.Module):
     """Kernelized T5 Relative Position Bias parallelized in the heads dimension"""
 
     def __init__(
@@ -481,9 +481,9 @@ class FIRE(nn.Module):
         return x + fire_bias
 
 
-class FIRE_CAPE(nn.Module):
+class FIRE_DAPE(nn.Module):
     def __init__(self, num_heads=12, mlp_width=32, init_c=0.1, init_L=512., eps=1e-6):
-        super(FIRE_CAPE, self).__init__()
+        super(FIRE_DAPE, self).__init__()
 
         # Define the MLP layers
         self.mlp = nn.Sequential(
