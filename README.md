@@ -1,5 +1,5 @@
-# CAPE
-The this is the official implementation of "CAPE: Context-Adaptive Positional Encoding for Length Extrapolation"
+# DAPE
+The this is the official implementation of "DAPE: Data-Adaptive Positional Encoding for Length Extrapolation"
 
 ---
 ## 🚩 **New Features/Updates**
