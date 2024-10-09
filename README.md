@@ -107,3 +107,25 @@ To reproduce the result of our paper, please set the "eval_iters"(in config yml 
 **Furhter Question**
 ---
 If there you have any questions, please ask a issue in this GitHub repository.
+
+
+```bash
+@article{zheng2024dape,
+      title={DAPE: Data-Adaptive Positional Encoding for Length Extrapolation}, 
+      author={Zheng, Chuanyang and Gao, Yihang and Shi, Han and Huang, Minbin and Li, Jingyao 
+      and Xiong, Jing and Ren, Xiaozhe and Ng, Michael and Jiang, Xin and Li, Zhenguo and Li, Yu },
+       journal={Advances in Neural Information Processing Systems},
+      year={2024},
+     
+}
+@misc{zheng2024dapev2processattention,
+      title={DAPE V2: Process Attention Score as Feature Map for Length Extrapolation}, 
+      author={Chuanyang Zheng and Yihang Gao and Han Shi and Jing Xiong and Jiankai Sun and Jingyao Li and Minbin Huang and Xiaozhe Ren and Michael Ng and Xin Jiang and Zhenguo Li and Yu Li},
+      year={2024},
+      eprint={2410.04798},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2410.04798}, 
+}
+```
+
