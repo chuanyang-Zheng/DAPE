@@ -118,7 +118,7 @@ If there you have any questions, please ask a issue in this GitHub repository.
       year={2024},
      
 }
-@misc{zheng2024dapev2processattention,
+@misc{zheng2024dapev2,
       title={DAPE V2: Process Attention Score as Feature Map for Length Extrapolation}, 
       author={Chuanyang Zheng and Yihang Gao and Han Shi and Jing Xiong and Jiankai Sun and Jingyao Li and Minbin Huang and Xiaozhe Ren and Michael Ng and Xin Jiang and Zhenguo Li and Yu Li},
       year={2024},
