@@ -3,10 +3,10 @@ The this is the official implementation of "DAPE: Data-Adaptive Positional Encod
 
 ---
 ## 🚩 **New Features/Updates**
+- ✅ Oct. 09, 2024. 💥 Please check our new paper [DAPE V2: Process Attention Score as Feature Map for Length Extrapolation](https://arxiv.org/abs/2410.04798). TL;DR: we identify and interpret the Transformer length extrapolation problem as a result of the limited expressiveness of the naive query and key dot product, and we successfully translate the length extrapolation issue into a well-understood feature map processing problem. 
+- ✅ Oct. 06, 2024. 💥 We release all the code!
 - ✅ Sep. 26, 2024. 💥 The paper is accepted to NeurIPS 2024!
 - ✅ May. 23, 2024. 💥 We upload our implementation of CAPE. More code is coming soon.
-
----
 
 ---
 **Installation**
@@ -86,13 +86,13 @@ python ./deepy.py train.py -d configs 125M/512/125M_kerple_c.yml local_setup.yml
 #For DAPE-FIRE
 python ./deepy.py train.py -d configs 125M/512/125M_fire_c.yml local_setup.yml
 
-#For DAPE_{1x3}-Alibi
+#For DAPEV2: DAPE_{1x3}-Alibi
 python ./deepy.py train.py -d configs 125M/512/125M_alibi_capev2.yml local_setup.yml
 
-#For DAPE_{1x3}-Kerple
+#For DAPEV2: DAPE_{1x3}-Kerple
 python ./deepy.py train.py -d configs 125M/512/125M_kerple_capev2.yml local_setup.yml
 
-#For DAPE_{1x3}-FIRE
+#For DAPEV2: DAPE_{1x3}-FIRE
 python ./deepy.py train.py -d configs 125M/512/125M_fire_capev2.yml local_setup.yml
 ```
 
