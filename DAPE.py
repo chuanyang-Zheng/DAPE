@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import math
-
+ 
 class AliBi(torch.nn.Module):
     def __init__(self, num_heads, mp_size=1, mp_rank=1):
         super().__init__()
