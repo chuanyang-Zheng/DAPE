@@ -5,7 +5,7 @@ The this is the official implementation of "DAPE: Data-Adaptive Positional Encod
 ## 🚩 **New Features/Updates**
 - ✅ Oct. 09, 2024. 💥 Please check our new paper [DAPE V2: Process Attention Score as Feature Map for Length Extrapolation](https://arxiv.org/abs/2410.04798). TL;DR: we identify and interpret the Transformer length extrapolation problem as a result of the limited expressiveness of the naive query and key dot product, and we successfully translate the length extrapolation issue into a well-understood feature map processing problem. 
 - ✅ Oct. 06, 2024. 💥 We release all the code!
-- ✅ Sep. 26, 2024. 💥 The paper is accepted to NeurIPS 2024!
+- ✅ Sep. 26, 2024. 💥 The paper is accepted to NeurIPS 2024! The Paper Link: [DAPE: Data-Adaptive Positional Encoding for Length Extrapolation](https://arxiv.org/abs/2405.14722)
 - ✅ May. 23, 2024. 💥 We upload our implementation of CAPE. More code is coming soon.
 
 ---
